@@ -66,10 +66,10 @@
                 </div>
                 <div class="col-lg-4">
                     <p class="lead section-lead">Recent Blog Posts</p>
-                    <ul class="list-style1">
-<?
-include "bloglist.php";
-?>
+                    <ul class="bloglist">
+                        <?
+                        include "bloglist.php";
+                        ?>
                     </ul>
             </div>
                 </div>
